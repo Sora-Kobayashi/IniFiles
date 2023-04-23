@@ -7,3 +7,4 @@ iniFiles-074-explaned
 No entanto, é importante ressaltar que o autor deste repositório não se responsabiliza por qualquer uso indevido do código presente aqui, nem por quaisquer danos ou perdas de dados decorrentes do seu uso. Como usuário deste código, você é o único responsável por garantir o cumprimento das leis, regulamentos e termos de serviço de terceiros aplicáveis.
 --------------------------
 Além disso, é importante observar que o autor deste repositório não endossa ou encoraja qualquer forma de atividade ilegal ou violação dos termos de serviço. Por favor, utilize este código de forma responsável e ética.
+-------------------------
