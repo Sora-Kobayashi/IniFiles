@@ -1,5 +1,6 @@
 # IniFiles
-iniFiles-074-explaned
+#iniFiles-074-explaned
+
 -USO EDUCACIONAL
 --------------------------
 É importante salientar que todo o conteúdo presente aqui é exclusivamente para fins educacionais e informativos. O objetivo é proporcionar uma experiência única de aprendizado para aqueles interessados em entender melhor como esses jogos funcionam.
