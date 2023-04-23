@@ -1,5 +1,5 @@
 # IniFiles
-#iniFiles-074-explaned
+# iniFiles-074-explaned
 
 -USO EDUCACIONAL
 --------------------------
