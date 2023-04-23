@@ -1,0 +1,76 @@
+* S_ElfCollect.ini
+
+Description: This file relative to what sprites collect during gathering expeditions. If you want to see items that your sprite craft you should check S_ElfCombine.ini
+
+| ID_HARVEST | ID_HARVEST_TYPE | LOW_LEVEL_EXP | HI_LEVEL_EXP | 100? | ELF_EXP_OBTAINED | HARVEST_TIME | ENERGY_WASTED | COST | | ID_ITEM1 | CHINESE_NAME_ITEM_1 | QT_ITEM1 | HARVEST_CHANCE | ID_ITEM2 | CHINESE_NAME_ITEM_2 | QT_ITEM2 | HARVEST_CHANCE_ITEM_2 | | | | | EVENT_DICE_ROLL | CONDITIONS | CHINESE_TEXT_DESC |
+
+*ID_HARVEST:*\\
+1-214 
+
+
+*ID_HARVEST_TYPE*
+
+| ID_HARVEST_TYPE | HARVEST |
+| 1 | Mining |
+| 2 | Foraging |
+| 3 | Hunting |
+| 4 | Dismantle |
+| 27 | Gas Gathering |
+| 28 | Gas Gathering |
+| 29 | Gas Gathering |
+| 39 | Red/Purple Pigments (To be confirmed) |
+| 40 | Red/Purple Pigments (To be confirmed) |
+| 41 | Red/Purple Pigments (To be confirmed) |
+| 31 | UNKNOWN (ID_HARVEST > 214) |
+| 43 | UNKNOWN (ID_HARVEST > 214)|
+
+*LOW_LEVEL_EXP | HI_LEVEL_EXP*
+
+Are the levels that give exp to the sprite. Ex:\\
+1|10 Means that this activity will give experience to the sprite while the activity level is between 1 and 10.
+
+*COST*
+
+How much cost for this activity
+
+*TIME: (not confirmed)*
+
+Time of gathering or Dismantle. 
+
+Dismantle: 20\\
+Collect: 35
+
+
+*CONDITIONS*
+
+*#:ACTION*
+
+#:If_ElfMood <=> VALUE:ACTION_IF_TRUE:ACTION_IF_FALSE
+
+#:If_ElfFamiliar <=> VALUE:ACTION_IF_TRUE:ACTION_IF_FALSA
+
+#:If_Result VALUE:::::
+
+:ElfMood +- VALUE:
+
+:ElfEnergy +- VALUE:
+
+:ElfFamiliar +- VALUE:
+
+:Reputation REPUTATION_ID +- VALUE:
+
+:ElfBuff ELF_BUFF_ID DURATION:
+
+:TextIndex TEXT_INDEX_FROM_ID:
+
+:GiveItem ITEM_ID AMOUNT:
+
+:ElfLeave DURATION:
+
+
+*CHINESE_TEXT_DESC:*
+
+Description of the action in chinese.
+
+
+_Special thanks to _PararatibumRx_ for the help_
