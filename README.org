@@ -190,3 +190,13 @@ No entanto, é importante ressaltar que o autor deste repositório não se respo
 --------------------------
 Além disso, é importante observar que o autor deste repositório não endossa ou encoraja qualquer forma de atividade ilegal ou violação dos termos de serviço. Por favor, utilize este código de forma responsável e ética.
 -------------------------
+
+
+- EDUCATIONAL PURPOSE
+--------------------------
+It's important to note that all content here is exclusively for educational and informational purposes. The goal is to provide a unique learning experience for those interested in better understanding how these games work.
+--------------------------
+However, it's important to emphasize that the author of this repository is not responsible for any misuse of the code found here, nor for any damages or data loss resulting from its use. As a user of this code, you are solely responsible for ensuring compliance with applicable laws, regulations, and third-party terms of service.
+--------------------------
+Additionally, it's important to note that the author of this repository does not endorse or encourage any form of illegal activity or violation of terms of service. Please use this code responsibly and ethically.
+--------------------------
