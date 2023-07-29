@@ -4,7 +4,7 @@ Description: This file is related to game items
 
 Item_refer: 25181
 
-| ID_ITEM | ID_ICON | MODEL_NAME | ITEM_BOX_ORIGIN | ? | ? | ? | SOUND_SFX | ? | CHINESE_ITEM_NAME | SLOT_EQUIP | ? | ? | ? | NECESSARY_LEVEL | | | | | | | ? | | | | | | | STR_STAT_ITEM | VIT_STAT_ITEM |  |  | AGI_STAT_ITEM | | | | | | | DEF_ITEM | | MDEF_ITEM | | EVADE_STATS_% | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | ITEM_DURABILITY || 2 | 800 ||||| 14 |||||
+| ID_ITEM | ID_ICON | MODEL_NAME | ITEM_BOX_ORIGIN | ? | POSSIBLEQUEST? | ? | SOUND_SFX | ? | CHINESE_ITEM_NAME | SLOT_EQUIP | ? | ? | ? | NECESSARY_LEVEL | | | | | | | ? | | | | | | | STR_STAT_ITEM | VIT_STAT_ITEM |  |  | AGI_STAT_ITEM | | | | | | | DEF_ITEM | | MDEF_ITEM | | EVADE_STATS_% | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | ITEM_DURABILITY || 2 | 800 ||||| 14 |||||
 
 *ID_ITEM*
 
@@ -21,6 +21,10 @@ This parameter reads and searches the luncher's image files for the item's image
 *ITEM_BOX_ORIGIN*
 
 This parameter delimits which box the item will come out of, the box is also in the image files in .dds format.
+
+*POSSIBLEQUEST?*
+
+32285 Quest é o unico que tem esse param.
 
 *SOUND_SFX*
 
